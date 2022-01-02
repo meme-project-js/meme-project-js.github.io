@@ -1,2 +1,3 @@
 # Meme-project
-Small project using JS, HTML, CSS and Back4App for backend service
+Small project using JS, HTML, CSS and Back4App for backend service.
+Page library is used for routing and lit-html for templating.
