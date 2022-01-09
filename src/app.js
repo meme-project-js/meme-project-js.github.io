@@ -27,7 +27,7 @@ page('/profile', profilePage)
 page('/catalog', catalogPage)
 
 updateUserNav()
-page.redirect('/')
+// page.redirect('/')
 page.start()
 
 
