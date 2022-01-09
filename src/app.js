@@ -8,9 +8,8 @@ import { homePage } from "./views/home.js"
 import { loginPage } from './views/login.js'
 import { profilePage } from './views/profile.js'
 import { registerPage } from './views/register.js'
-import { logout, createMeme } from './api/data.js'
+import { logout} from './api/data.js'
 
-window.createMeme = createMeme
 
 const root = document.querySelector('main')
 document.getElementById('logoutBtn').addEventListener('click', logingOut)
@@ -27,7 +26,6 @@ page('/profile', profilePage)
 page('/catalog', catalogPage)
 
 updateUserNav()
-// page.redirect('/')
 page.start()
 
 
