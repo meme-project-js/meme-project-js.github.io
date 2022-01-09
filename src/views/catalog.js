@@ -1,8 +1,5 @@
-
 import { getAllMemes } from '../api/data.js'
 import {html} from '../lib.js'
-
-
 
 const catalogTemplate = (memes) => html`
  <section id="meme-feed">
@@ -33,8 +30,6 @@ const memeCard = (meme) => html `
 export async function catalogPage(ctx) {
     const memes = await getAllMemes()
     ctx.render(catalogTemplate(memes.results))
-
-    
 }
 
 
